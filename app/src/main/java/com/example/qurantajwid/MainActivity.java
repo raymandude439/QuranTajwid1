@@ -1,23 +1,127 @@
 package com.example.qurantajwid;
 
-import androidx.appcompat.app.AppCompatActivity;
+import static com.example.qurantajwid.R.id.*;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import android.app.Fragment;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+//        implements View.OnClickListener
+{
 
+//    private ImageButton mLoadFragmentOne;
+//    private ImageButton mLoadFragmentTwo;
+//    private ImageButton mLoadFragmentThree;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        ImageButton btnMenu = findViewById(R.id.btnMenu);
+
+        FragmentManager fm = getSupportFragmentManager();
+        fm.beginTransaction()
+                .replace(R.id.fragmentFrame, MenuFragment.class, null)
+                .setReorderingAllowed(true)
+                .addToBackStack("name")
+                .commit();
+        btnMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fm = getSupportFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, MenuFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                setHeadline("Menu");
+            }
+        });
+//        mLoadFragmentOne = (ImageButton)findViewById(btnQuran);
+//        mLoadFragmentTwo = (ImageButton)findViewById(btnTajwid);
+//        mLoadFragmentThree = (ImageButton)findViewById(btnAU);
+//
+//        mLoadFragmentOne.setOnClickListener(this);
+//        mLoadFragmentTwo.setOnClickListener(this);
+//        mLoadFragmentThree.setOnClickListener(this);
     }
 
-    public void onBtnClick (View view) {
+    public void setHeadline(String txt){
+        TextView editHeadline = findViewById(R.id.headline);
+        editHeadline.setText(txt);
+    }
 
+//    @Override
+////    public void onClick(View view)
+////    {
+////        switch(view.getId())
+////        {
+////            case btnQuran:
+////                Fragment fragmentOne = new Fragment();
+////
+////                loadFragment(fragmentOne, "fragmentOne");
+////
+////                break;
+////            case btnTajwid:
+////                Fragment fragmentTwo = new Fragment();
+////
+////                loadFragment(fragmentTwo, "fragmentTwo");
+////
+////                break;
+////            case btnAU:
+////                Fragment fragmentThree = new Fragment();
+////
+////                loadFragment(fragmentThree, "fragmentThree");
+////
+////                break;
+////            default:
+////                break;
+////        }
+////    }
+//
+//    /**
+//     * This fragment container will be part of the main view.
+//     */
+//
+////    public void loadFragment(Fragment frag, String tag)
+////    {
+////        FragmentManager fm = getSupportFragmentManager();
+////        fm.beginTransaction()
+////                .replace(R.id.fragmentFrame, frag, tag)
+////                .setReorderingAllowed(true)
+////                .addToBackStack("name")
+////                .commit();
+////
+////
+//////        FragmentManager fm = getSupportFragmentManager();
+//////        FragmentTransaction ft = fm.beginTransaction();
+//////
+//////        Fragment fragment = getFragmentManager().findFragmentById(R.id.fragmentFrame);
+//////        if(fragment == null)
+//////        {
+//////            ft.add(R.id.fragmentFrame, frag, tag);
+//////        } else
+//////        {
+//////            ft.replace(R.id.fragmentFrame, frag, tag);
+//////        }
+//////        ft.addToBackStack(null);
+//////
+//////        ft.commit();
+////    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
     }
 
 //    public void onBtnClick (View view){
