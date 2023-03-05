@@ -7,12 +7,15 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.app.Fragment;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 //        implements View.OnClickListener
@@ -56,12 +59,47 @@ public class MainActivity extends AppCompatActivity
 //        mLoadFragmentThree.setOnClickListener(this);
     }
 
+    MediaPlayer player;
+
+    public void play(int x) {
+        if (player == null) {
+            player = MediaPlayer.create(this, x);
+            player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mediaPlayer) {
+                    stopPlayer();
+                }
+            });
+        }
+        player.start();
+    }
+
+    public void pause(){
+        if(player!=null){
+            player.pause();
+        }
+    }
+
+    public void stopPlayer(){
+        if (player!=null) {
+            player.release();
+            player=null;
+            Toast.makeText(this, "Media telah dimainkan", Toast.LENGTH_SHORT).show();
+        }
+    }
+
     public void setHeadline(String txt){
         TextView editHeadline = findViewById(R.id.headline);
         editHeadline.setText(txt);
     }
 
-//    @Override
+    @Override
+    protected void onStop() {
+        super.onStop();
+        stopPlayer();
+    }
+
+    //    @Override
 ////    public void onClick(View view)
 ////    {
 ////        switch(view.getId())

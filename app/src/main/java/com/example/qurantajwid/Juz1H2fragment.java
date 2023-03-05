@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -63,8 +63,8 @@ public class Juz1H2fragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_juz1_h2fragment, container, false);
 
         MainActivity ma = (MainActivity)getActivity();
-        Button next = (Button)view.findViewById(R.id.next);
-        Button prev = (Button)view.findViewById(R.id.prev);
+        ImageButton next = (ImageButton)view.findViewById(R.id.next);
+        ImageButton prev = (ImageButton)view.findViewById(R.id.prev);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,6 +90,13 @@ public class Juz1H2fragment extends Fragment {
                 ma.setHeadline("Juz 1 Halaman 1");
             }
         });
+
+        FragmentManager fm = getFragmentManager();
+        fm.beginTransaction()
+                .replace(R.id.fragmentFrame1, Juz1H2A0Fragment.class, null)
+                .setReorderingAllowed(true)
+                .addToBackStack("name")
+                .commit();
 
         return view;
     }

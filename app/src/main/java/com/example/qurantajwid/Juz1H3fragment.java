@@ -3,10 +3,12 @@ package com.example.qurantajwid;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +60,44 @@ public class Juz1H3fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_juz1_h3fragment, container, false);
+        View view=inflater.inflate(R.layout.fragment_juz1_h3fragment, container, false);
+
+        MainActivity ma = (MainActivity)getActivity();
+        ImageButton next = (ImageButton)view.findViewById(R.id.next);
+        ImageButton prev = (ImageButton)view.findViewById(R.id.prev);
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1H4Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Juz 1 Halaman 4");
+            }
+        });
+        prev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1H2fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Juz 1 Halaman 2");
+            }
+        });
+
+        FragmentManager fm = getFragmentManager();
+        fm.beginTransaction()
+                .replace(R.id.fragmentFrame1, Juz1H3A1Fragment.class, null)
+                .setReorderingAllowed(true)
+                .addToBackStack("name")
+                .commit();
+
+        return view;
     }
 }

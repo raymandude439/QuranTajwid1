@@ -14,13 +14,14 @@
             android:id="@+id/btnQuran"
             android:layout_width="337dp"
             android:layout_height="169dp"
-            android:background="#8BC34A"
+            android:background="#FFFFFF"
+            android:src="@drawable/menu_alquran__1_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.005"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@drawable/menu_alquran__1_" />
 
         <ImageButton
             android:id="@+id/btnTajwid"
@@ -28,24 +29,26 @@
             android:layout_height="169dp"
             android:layout_marginTop="21dp"
             android:background="#CDDC39"
+            android:src="@drawable/menu_tajwid__2_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnQuran"
             app:layout_constraintVertical_bias="0.027"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@drawable/menu_tajwid__2_" />
 
         <ImageButton
             android:id="@+id/btnAU"
             android:layout_width="337dp"
             android:layout_height="169dp"
             android:background="#3F51B5"
+            android:src="@drawable/menu_about_us__1_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnTajwid"
             app:layout_constraintVertical_bias="0.177"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@drawable/menu_about_us__1_" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
