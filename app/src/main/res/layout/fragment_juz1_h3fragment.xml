@@ -33,9 +33,10 @@
         <FrameLayout
             android:id="@+id/fragmentFrame1"
             android:layout_width="413dp"
-            android:layout_height="293dp"
+            android:layout_height="291dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6">
 
@@ -45,7 +46,7 @@
             android:id="@+id/imageView6"
             android:layout_width="283dp"
             android:layout_height="442dp"
-            android:src="@drawable/surah_al_baqarah_2_page_4"
+            android:src="@drawable/albaqarah2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

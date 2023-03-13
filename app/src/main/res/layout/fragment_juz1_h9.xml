@@ -45,10 +45,11 @@
             android:id="@+id/imageView9"
             android:layout_width="283dp"
             android:layout_height="442dp"
-            android:src="@drawable/surah_al_baqarah_2_page_10"
+            android:src="@drawable/albaqarah8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/albaqarah8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

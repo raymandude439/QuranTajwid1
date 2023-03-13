@@ -90,6 +90,12 @@ public class Juz1H6Fragment extends Fragment {
                 ma.setHeadline("Juz 1 Halaman 5");
             }
         });
+        FragmentManager fm = getFragmentManager();
+        fm.beginTransaction()
+                .replace(R.id.fragmentFrame1, Juz1H5A5Fragment.class, null)
+                .setReorderingAllowed(true)
+                .addToBackStack("name")
+                .commit();
 
         return view;
     }

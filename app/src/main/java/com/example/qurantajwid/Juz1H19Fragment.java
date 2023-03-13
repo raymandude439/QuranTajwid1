@@ -63,8 +63,21 @@ public class Juz1H19Fragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_juz1_h19, container, false);
 
         MainActivity ma = (MainActivity)getActivity();
+        ImageButton next = (ImageButton)view.findViewById(R.id.next);
         ImageButton prev = (ImageButton)view.findViewById(R.id.prev);
 
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1H20Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Juz 1 Halaman 20");
+            }
+        });
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,6 +90,12 @@ public class Juz1H19Fragment extends Fragment {
                 ma.setHeadline("Juz 1 Halaman 18");
             }
         });
+        FragmentManager fm = getFragmentManager();
+        fm.beginTransaction()
+                .replace(R.id.fragmentFrame1, Juz1H19A1Fragment.class, null)
+                .setReorderingAllowed(true)
+                .addToBackStack("name")
+                .commit();
 
         return view;
     }

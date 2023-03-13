@@ -93,7 +93,7 @@ public class Juz1H3fragment extends Fragment {
 
         FragmentManager fm = getFragmentManager();
         fm.beginTransaction()
-                .replace(R.id.fragmentFrame1, Juz1H3A1Fragment.class, null)
+                .replace(R.id.fragmentFrame1, Juz1H3A2Fragment.class, null)
                 .setReorderingAllowed(true)
                 .addToBackStack("name")
                 .commit();

@@ -67,8 +67,20 @@ public class Juz1H2A4Fragment extends Fragment {
         ImageButton play = (ImageButton)view.findViewById(R.id.play);
         ImageButton pause = (ImageButton)view.findViewById(R.id.pause);
         ImageButton stop = (ImageButton)view.findViewById(R.id.stop);
+        ImageButton sr = (ImageButton)view.findViewById(R.id.seekright);
         ImageButton sl = (ImageButton)view.findViewById(R.id.seekleft);
 
+        sr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame1, Juz1H3A1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+            }
+        });
         sl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

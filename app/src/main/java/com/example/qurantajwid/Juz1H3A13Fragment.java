@@ -67,20 +67,19 @@ public class Juz1H3A13Fragment extends Fragment {
         ImageButton play = (ImageButton)view.findViewById(R.id.play);
         ImageButton pause = (ImageButton)view.findViewById(R.id.pause);
         ImageButton stop = (ImageButton)view.findViewById(R.id.stop);
-        ImageButton sl = (ImageButton)view.findViewById(R.id.seekleft);
+        ImageButton sr = (ImageButton)view.findViewById(R.id.seekright);
 
-        sl.setOnClickListener(new View.OnClickListener() {
+        sr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame1, Juz1H3A12Fragment.class, null)
+                        .replace(R.id.fragmentFrame1, Juz1H4A1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
             }
         });
-
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
