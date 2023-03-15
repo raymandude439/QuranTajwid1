@@ -32,12 +32,12 @@
 
         <FrameLayout
             android:id="@+id/fragmentFrame1"
-            android:layout_width="413dp"
-            android:layout_height="293dp"
+            android:layout_width="411dp"
+            android:layout_height="241dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView">
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent">
 
         </FrameLayout>
 

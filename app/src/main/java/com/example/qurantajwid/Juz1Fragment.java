@@ -1,5 +1,7 @@
 package com.example.qurantajwid;
 
+import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -64,6 +67,14 @@ public class Juz1Fragment extends Fragment {
 
         MainActivity ma = (MainActivity)getActivity();
         ImageButton next = (ImageButton)view.findViewById(R.id.next);
+        ImageView hal = (ImageView) view.findViewById(R.id.imageView3);
+        hal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ma.dialog();
+            }
+        });
+
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
