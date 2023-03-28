@@ -1,23 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A4B993"
-    android:backgroundTint="#8BC34A"
-    tools:context=".TajwidFragment">
+    android:backgroundTint="#FFFFFF"
+    tools:context=".TajwidFragment" >
 
-    <!-- TODO: Update blank fragment layout -->
-
-    <TextView
-        android:id="@+id/textView"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#9C27B0"
-        android:paddingTop="20dp"
-        android:text="Tajwid"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        tools:text="Tajwid" />
+        android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/btnTajwid1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Tajwid 1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnTajwid2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Tajwid 2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid1" />
+
+        <Button
+            android:id="@+id/btnTajwid3"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:text="Tajwid 3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid2" />
+
+        <Button
+            android:id="@+id/btnTajwid4"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:text="Tajwid 4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid3" />
+
+        <Button
+            android:id="@+id/btnTajwid5"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:text="Tajwid 5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid4" />
+
+        <ImageView
+            android:id="@+id/imageViewTajwid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/albaqarah1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

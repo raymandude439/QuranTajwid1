@@ -3,10 +3,13 @@ package com.example.qurantajwid;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +61,84 @@ public class TajwidFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tajwid, container, false);
+        View view=inflater.inflate(R.layout.fragment_tajwid, container, false);;
+        MainActivity ma = (MainActivity)getActivity();
+        ImageView img = (ImageView)view.findViewById(R.id.imageViewTajwid);
+        Button btnTajwid1 = (Button)view.findViewById(R.id.btnTajwid1);
+        Button btnTajwid2 = (Button)view.findViewById(R.id.btnTajwid2);
+        Button btnTajwid3 = (Button)view.findViewById(R.id.btnTajwid3);
+        Button btnTajwid4 = (Button)view.findViewById(R.id.btnTajwid4);
+        Button btnTajwid5 = (Button)view.findViewById(R.id.btnTajwid5);
+
+        img.setVisibility(View.GONE);
+
+        btnTajwid1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                img.setImageResource(R.drawable.albaqarah1);
+                img.setVisibility(View.VISIBLE);
+                btnTajwid1.setVisibility(View.GONE);
+                btnTajwid2.setVisibility(View.GONE);
+                btnTajwid3.setVisibility(View.GONE);
+                btnTajwid4.setVisibility(View.GONE);
+                btnTajwid5.setVisibility(View.GONE);
+                ma.setHeadline("Ghunnah");
+            }
+        });
+
+        btnTajwid2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                img.setImageResource(R.drawable.albaqarah2);
+                img.setVisibility(View.VISIBLE);
+                btnTajwid1.setVisibility(View.GONE);
+                btnTajwid2.setVisibility(View.GONE);
+                btnTajwid3.setVisibility(View.GONE);
+                btnTajwid4.setVisibility(View.GONE);
+                btnTajwid5.setVisibility(View.GONE);
+                ma.setHeadline("Idhghom");
+            }
+        });
+        btnTajwid3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                img.setImageResource(R.drawable.albaqarah3);
+                img.setVisibility(View.VISIBLE);
+                btnTajwid1.setVisibility(View.GONE);
+                btnTajwid2.setVisibility(View.GONE);
+                btnTajwid3.setVisibility(View.GONE);
+                btnTajwid4.setVisibility(View.GONE);
+                btnTajwid5.setVisibility(View.GONE);
+                ma.setHeadline("Tajwid 3");
+            }
+        });
+        btnTajwid4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                img.setImageResource(R.drawable.albaqarah4);
+                img.setVisibility(View.VISIBLE);
+                btnTajwid1.setVisibility(View.GONE);
+                btnTajwid2.setVisibility(View.GONE);
+                btnTajwid3.setVisibility(View.GONE);
+                btnTajwid4.setVisibility(View.GONE);
+                btnTajwid5.setVisibility(View.GONE);
+                ma.setHeadline("Tajwid 4");
+            }
+        });
+        btnTajwid5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                img.setImageResource(R.drawable.albaqarah5);
+                img.setVisibility(View.VISIBLE);
+                btnTajwid1.setVisibility(View.GONE);
+                btnTajwid2.setVisibility(View.GONE);
+                btnTajwid3.setVisibility(View.GONE);
+                btnTajwid4.setVisibility(View.GONE);
+                btnTajwid5.setVisibility(View.GONE);
+                ma.setHeadline("Tajwid 5");
+            }
+        });
+
+        return view;
     }
 }

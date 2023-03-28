@@ -97,6 +97,12 @@ public class MainActivity extends AppCompatActivity
         editHeadline.setText(txt);
     }
 
+    public boolean checkHeadline(String txt){
+        TextView checkHeadline = findViewById(headline);
+        boolean hasil = checkHeadline.equals(txt);
+        return hasil;
+    }
+
     @Override
     protected void onStop() {
         super.onStop();
@@ -164,14 +170,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
         super.onPointerCaptureChanged(hasCapture);
-    }
-
-    public void dialog(){
-        Dialog dialog;
-        View view1 = getLayoutInflater().inflate(R.layout.activity_fullscreen, null);
-        dialog = new Dialog(this, android.R.style.Theme_DeviceDefault_Light_NoActionBar_Fullscreen);
-        dialog.setContentView(view1);
-        dialog.show();
     }
 
 
