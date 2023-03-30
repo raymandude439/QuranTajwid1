@@ -217,7 +217,7 @@ public class Juz2Fragment extends Fragment {
         if(halaman == 0){
             prev.setVisibility(View.GONE);
         }
-        if(halaman == 20){
+        if(halaman == 19){
             next.setVisibility(View.GONE);
         }
         int x = mp3ayat[halaman].length;
@@ -237,7 +237,7 @@ public class Juz2Fragment extends Fragment {
                 }else{
                     prev.setVisibility(View.VISIBLE);
                 }
-                if(halaman==20){
+                if(halaman==19){
                     next.setVisibility(View.GONE);
                 }else{
                     next.setVisibility(View.VISIBLE);
@@ -261,7 +261,7 @@ public class Juz2Fragment extends Fragment {
                 }else{
                     prev.setVisibility(View.VISIBLE);
                 }
-                if(halaman==20){
+                if(halaman==19){
                     next.setVisibility(View.GONE);
                 }else{
                     next.setVisibility(View.VISIBLE);

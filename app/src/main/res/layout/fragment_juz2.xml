@@ -42,7 +42,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageViewJuz2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Al - Fatihah Ayat 1" />
+            android:text="Al - Baqarah 142" />
 
         <ImageButton
             android:id="@+id/seekright"
