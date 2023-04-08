@@ -236,6 +236,158 @@ public class Juz1Fragment extends Fragment {
                     R.raw.baqarah141}
     };
 
+    private String [][] judulayat = {
+            {"Ucapan Bismillah",
+                    "Al - Fatihah Ayat 1",
+                    "Al - Fatihah Ayat 2",
+                    "Al - Fatihah Ayat 3",
+                    "Al - Fatihah Ayat 4",
+                    "Al - Fatihah Ayat 5",
+                    "Al - Fatihah Ayat 6"},
+            {"Ucapan Bismillah",
+                    "Al - Baqarah Ayat 1",
+                    "Al - Baqarah Ayat 2",
+                    "Al - Baqarah Ayat 3",
+                    "Al - Baqarah Ayat 4",
+                    "Al - Baqarah Ayat 5",},
+            {"Al - Baqarah Ayat 6",
+                    "Al - Baqarah Ayat 7",
+                    "Al - Baqarah Ayat 8",
+                    "Al - Baqarah Ayat 9",
+                    "Al - Baqarah Ayat 10",
+                    "Al - Baqarah Ayat 11",
+                    "Al - Baqarah Ayat 12",
+                    "Al - Baqarah Ayat 13",
+                    "Al - Baqarah Ayat 14",
+                    "Al - Baqarah Ayat 15",
+                    "Al - Baqarah Ayat 16",},
+            {"Al - Baqarah Ayat 17",
+                    "Al - Baqarah Ayat 18",
+                    "Al - Baqarah Ayat 19",
+                    "Al - Baqarah Ayat 20",
+                    "Al - Baqarah Ayat 21",
+                    "Al - Baqarah Ayat 22",
+                    "Al - Baqarah Ayat 23",
+                    "Al - Baqarah Ayat 24",},
+            {"Al - Baqarah Ayat 25",
+                    "Al - Baqarah Ayat 26",
+                    "Al - Baqarah Ayat 27",
+                    "Al - Baqarah Ayat 28",
+                    "Al - Baqarah Ayat 29",},
+            {"Al - Baqarah Ayat 30",
+                    "Al - Baqarah Ayat 31",
+                    "Al - Baqarah Ayat 32",
+                    "Al - Baqarah Ayat 33",
+                    "Al - Baqarah Ayat 34",
+                    "Al - Baqarah Ayat 35",
+                    "Al - Baqarah Ayat 36",
+                    "Al - Baqarah Ayat 37",},
+            {"Al - Baqarah Ayat 38",
+                    "Al - Baqarah Ayat 39",
+                    "Al - Baqarah Ayat 40",
+                    "Al - Baqarah Ayat 41",
+                    "Al - Baqarah Ayat 42",
+                    "Al - Baqarah Ayat 43",
+                    "Al - Baqarah Ayat 44",
+                    "Al - Baqarah Ayat 45",
+                    "Al - Baqarah Ayat 46",
+                    "Al - Baqarah Ayat 47",
+                    "Al - Baqarah Ayat 48",},
+            {"Al - Baqarah Ayat 49",
+                    "Al - Baqarah Ayat 50",
+                    "Al - Baqarah Ayat 51",
+                    "Al - Baqarah Ayat 52",
+                    "Al - Baqarah Ayat 53",
+                    "Al - Baqarah Ayat 54",
+                    "Al - Baqarah Ayat 55",
+                    "Al - Baqarah Ayat 56",
+                    "Al - Baqarah Ayat 57",},
+            {"Al - Baqarah Ayat 58",
+                    "Al - Baqarah Ayat 59",
+                    "Al - Baqarah Ayat 60",
+                    "Al - Baqarah Ayat 61",},
+            {"Al - Baqarah Ayat 62",
+                    "Al - Baqarah Ayat 63",
+                    "Al - Baqarah Ayat 64",
+                    "Al - Baqarah Ayat 65",
+                    "Al - Baqarah Ayat 66",
+                    "Al - Baqarah Ayat 67",
+                    "Al - Baqarah Ayat 68",
+                    "Al - Baqarah Ayat 69",},
+            {"Al - Baqarah Ayat 70",
+                    "Al - Baqarah Ayat 71",
+                    "Al - Baqarah Ayat 72",
+                    "Al - Baqarah Ayat 73",
+                    "Al - Baqarah Ayat 74",
+                    "Al - Baqarah Ayat 75",
+                    "Al - Baqarah Ayat 76",},
+            {"Al - Baqarah Ayat 77",
+                    "Al - Baqarah Ayat 78",
+                    "Al - Baqarah Ayat 79",
+                    "Al - Baqarah Ayat 80",
+                    "Al - Baqarah Ayat 81",
+                    "Al - Baqarah Ayat 82",
+                    "Al - Baqarah Ayat 83",},
+            {"Al - Baqarah Ayat 84",
+                    "Al - Baqarah Ayat 85",
+                    "Al - Baqarah Ayat 86",
+                    "Al - Baqarah Ayat 87",
+                    "Al - Baqarah Ayat 88",},
+            {"Al - Baqarah Ayat 89",
+                    "Al - Baqarah Ayat 90",
+                    "Al - Baqarah Ayat 91",
+                    "Al - Baqarah Ayat 92",
+                    "Al - Baqarah Ayat 93",},
+            {"Al - Baqarah Ayat 94",
+                    "Al - Baqarah Ayat 95",
+                    "Al - Baqarah Ayat 96",
+                    "Al - Baqarah Ayat 97",
+                    "Al - Baqarah Ayat 98",
+                    "Al - Baqarah Ayat 99",
+                    "Al - Baqarah Ayat 100",
+                    "Al - Baqarah Ayat 101",},
+            {"Al - Baqarah Ayat 102",
+                    "Al - Baqarah Ayat 103",
+                    "Al - Baqarah Ayat 104",
+                    "Al - Baqarah Ayat 105",},
+            {"Al - Baqarah Ayat 106",
+                    "Al - Baqarah Ayat 107",
+                    "Al - Baqarah Ayat 108",
+                    "Al - Baqarah Ayat 109",
+                    "Al - Baqarah Ayat 110",
+                    "Al - Baqarah Ayat 111",
+                    "Al - Baqarah Ayat 112",},
+            {"Al - Baqarah Ayat 113",
+                    "Al - Baqarah Ayat 114",
+                    "Al - Baqarah Ayat 115",
+                    "Al - Baqarah Ayat 116",
+                    "Al - Baqarah Ayat 117",
+                    "Al - Baqarah Ayat 118",
+                    "Al - Baqarah Ayat 119",},
+            {"Al - Baqarah Ayat 120",
+                    "Al - Baqarah Ayat 121",
+                    "Al - Baqarah Ayat 122",
+                    "Al - Baqarah Ayat 123",
+                    "Al - Baqarah Ayat 124",
+                    "Al - Baqarah Ayat 125",
+                    "Al - Baqarah Ayat 126",},
+            {"Al - Baqarah Ayat 127",
+                    "Al - Baqarah Ayat 128",
+                    "Al - Baqarah Ayat 129",
+                    "Al - Baqarah Ayat 130",
+                    "Al - Baqarah Ayat 131",
+                    "Al - Baqarah Ayat 132",
+                    "Al - Baqarah Ayat 133",
+                    "Al - Baqarah Ayat 134",},
+            {"Al - Baqarah Ayat 135",
+                    "Al - Baqarah Ayat 136",
+                    "Al - Baqarah Ayat 137",
+                    "Al - Baqarah Ayat 138",
+                    "Al - Baqarah Ayat 139",
+                    "Al - Baqarah Ayat 140",
+                    "Al - Baqarah Ayat 141",}
+    };
+
     int ayat = 0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -286,11 +438,7 @@ public class Juz1Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                if(halaman==0){
-                    ayattxt.setText("Al Fatihah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -314,11 +462,7 @@ public class Juz1Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                if(halaman==0){
-                    ayattxt.setText("Al Fatihah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -339,11 +483,7 @@ public class Juz1Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                if(halaman==0){
-                    ayattxt.setText("Al Fatihah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -362,11 +502,7 @@ public class Juz1Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                if(halaman==0){
-                    ayattxt.setText("Al Fatihah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
         play.setOnClickListener(new View.OnClickListener() {

@@ -210,6 +210,135 @@ public class Juz3Fragment extends Fragment {
                     R.raw.imran91,},
     };
 
+    private String [][] judulayat = {
+            {"Al - Baqarah Ayat 253",
+                    "Al - Baqarah Ayat 254",
+                    "Al - Baqarah Ayat 255",
+                    "Al - Baqarah Ayat 256",},
+            {"Al - Baqarah Ayat 257",
+                    "Al - Baqarah Ayat 258",
+                    "Al - Baqarah Ayat 259",},
+            {"Al - Baqarah Ayat 260",
+                    "Al - Baqarah Ayat 261",
+                    "Al - Baqarah Ayat 262",
+                    "Al - Baqarah Ayat 263",
+                    "Al - Baqarah Ayat 264",},
+            {"Al - Baqarah Ayat 265",
+                    "Al - Baqarah Ayat 266",
+                    "Al - Baqarah Ayat 267",
+                    "Al - Baqarah Ayat 268",
+                    "Al - Baqarah Ayat 269",},
+            {"Al - Baqarah Ayat 270",
+                    "Al - Baqarah Ayat 271",
+                    "Al - Baqarah Ayat 272",
+                    "Al - Baqarah Ayat 273",
+                    "Al - Baqarah Ayat 274",},
+            {"Al - Baqarah Ayat 275",
+                    "Al - Baqarah Ayat 276",
+                    "Al - Baqarah Ayat 277",
+                    "Al - Baqarah Ayat 278",
+                    "Al - Baqarah Ayat 279",
+                    "Al - Baqarah Ayat 280",
+                    "Al - Baqarah Ayat 281",},
+            {"Al - Baqarah Ayat 282",},
+            {"Al - Baqarah Ayat 283",
+                    "Al - Baqarah Ayat 284",
+                    "Al - Baqarah Ayat 285",
+                    "Al - Baqarah Ayat 286",},
+            {"Ucapan Bismillah",
+                    "Ali - Imran Ayat 1",
+                    "Ali - Imran Ayat 2",
+                    "Ali - Imran Ayat 3",
+                    "Ali - Imran Ayat 4",
+                    "Ali - Imran Ayat 5",
+                    "Ali - Imran Ayat 6",
+                    "Ali - Imran Ayat 7",
+                    "Ali - Imran Ayat 8",
+                    "Ali - Imran Ayat 9",},
+            {"Ali - Imran Ayat 10",
+                    "Ali - Imran Ayat 11",
+                    "Ali - Imran Ayat 12",
+                    "Ali - Imran Ayat 13",
+                    "Ali - Imran Ayat 14",
+                    "Ali - Imran Ayat 15",},
+            {"Ali - Imran Ayat 16",
+                    "Ali - Imran Ayat 17",
+                    "Ali - Imran Ayat 18",
+                    "Ali - Imran Ayat 19",
+                    "Ali - Imran Ayat 20",
+                    "Ali - Imran Ayat 21",
+                    "Ali - Imran Ayat 22",},
+            {"Ali - Imran Ayat 23",
+                    "Ali - Imran Ayat 24",
+                    "Ali - Imran Ayat 25",
+                    "Ali - Imran Ayat 26",
+                    "Ali - Imran Ayat 27",
+                    "Ali - Imran Ayat 28",
+                    "Ali - Imran Ayat 29",},
+            {"Ali - Imran Ayat 30",
+                    "Ali - Imran Ayat 31",
+                    "Ali - Imran Ayat 32",
+                    "Ali - Imran Ayat 33",
+                    "Ali - Imran Ayat 34",
+                    "Ali - Imran Ayat 35",
+                    "Ali - Imran Ayat 36",
+                    "Ali - Imran Ayat 37",},
+            {"Ali - Imran Ayat 38",
+                    "Ali - Imran Ayat 39",
+                    "Ali - Imran Ayat 40",
+                    "Ali - Imran Ayat 41",
+                    "Ali - Imran Ayat 42",
+                    "Ali - Imran Ayat 43",
+                    "Ali - Imran Ayat 44",
+                    "Ali - Imran Ayat 45",},
+            {"Ali - Imran Ayat 46",
+                    "Ali - Imran Ayat 47",
+                    "Ali - Imran Ayat 48",
+                    "Ali - Imran Ayat 49",
+                    "Ali - Imran Ayat 50",
+                    "Ali - Imran Ayat 51",
+                    "Ali - Imran Ayat 52",},
+            {"Ali - Imran Ayat 53",
+                    "Ali - Imran Ayat 54",
+                    "Ali - Imran Ayat 55",
+                    "Ali - Imran Ayat 56",
+                    "Ali - Imran Ayat 57",
+                    "Ali - Imran Ayat 58",
+                    "Ali - Imran Ayat 59",
+                    "Ali - Imran Ayat 60",
+                    "Ali - Imran Ayat 61",},
+            {"Ali - Imran Ayat 62",
+                    "Ali - Imran Ayat 63",
+                    "Ali - Imran Ayat 64",
+                    "Ali - Imran Ayat 65",
+                    "Ali - Imran Ayat 66",
+                    "Ali - Imran Ayat 67",
+                    "Ali - Imran Ayat 68",
+                    "Ali - Imran Ayat 69",
+                    "Ali - Imran Ayat 70",},
+            {"Ali - Imran Ayat 71",
+                    "Ali - Imran Ayat 72",
+                    "Ali - Imran Ayat 73",
+                    "Ali - Imran Ayat 74",
+                    "Ali - Imran Ayat 75",
+                    "Ali - Imran Ayat 76",
+                    "Ali - Imran Ayat 77",},
+            {"Ali - Imran Ayat 78",
+                    "Ali - Imran Ayat 79",
+                    "Ali - Imran Ayat 80",
+                    "Ali - Imran Ayat 81",
+                    "Ali - Imran Ayat 82",
+                    "Ali - Imran Ayat 83",},
+            {"Ali - Imran Ayat 84",
+                    "Ali - Imran Ayat 85",
+                    "Ali - Imran Ayat 86",
+                    "Ali - Imran Ayat 87",
+                    "Ali - Imran Ayat 88",
+                    "Ali - Imran Ayat 89",
+                    "Ali - Imran Ayat 90",
+                    "Ali - Imran Ayat 91",},
+    };
+
     int ayat = 0;
 
     @Override
@@ -261,11 +390,7 @@ public class Juz3Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                if(halaman >= 0 && halaman <= 7){
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Ali Imran Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -289,11 +414,7 @@ public class Juz3Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                if(halaman >= 0 && halaman <= 7){
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Ali Imran Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -314,11 +435,7 @@ public class Juz3Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                if(halaman >= 0 && halaman <= 7){
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Ali Imran Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -337,11 +454,7 @@ public class Juz3Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                if(halaman >= 0 && halaman <= 7){
-                    ayattxt.setText("Al Baqarah Ayat " + (ayat+1));
-                }else{
-                    ayattxt.setText("Ali Imran Ayat " + (ayat+1));
-                }
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
         play.setOnClickListener(new View.OnClickListener() {

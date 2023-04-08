@@ -208,6 +208,133 @@ public class Juz5Fragment extends Fragment {
                     R.raw.annisa147,},
     };
 
+    private String [][] judulayat = {
+            {"An - Nisa Ayat 24",
+                    "An - Nisa Ayat 25",
+                    "An - Nisa Ayat 26",},
+            {"An - Nisa Ayat 27",
+                    "An - Nisa Ayat 28",
+                    "An - Nisa Ayat 29",
+                    "An - Nisa Ayat 30",
+                    "An - Nisa Ayat 31",
+                    "An - Nisa Ayat 32",
+                    "An - Nisa Ayat 33",},
+            {"An - Nisa Ayat 34",
+                    "An - Nisa Ayat 35",
+                    "An - Nisa Ayat 36",
+                    "An - Nisa Ayat 37",},
+            {"An - Nisa Ayat 38",
+                    "An - Nisa Ayat 39",
+                    "An - Nisa Ayat 40",
+                    "An - Nisa Ayat 41",
+                    "An - Nisa Ayat 42",
+                    "An - Nisa Ayat 43",
+                    "An - Nisa Ayat 44",},
+            {"An - Nisa Ayat 45",
+                    "An - Nisa Ayat 46",
+                    "An - Nisa Ayat 47",
+                    "An - Nisa Ayat 48",
+                    "An - Nisa Ayat 49",
+                    "An - Nisa Ayat 50",
+                    "An - Nisa Ayat 51",},
+            {"An - Nisa Ayat 52",
+                    "An - Nisa Ayat 53",
+                    "An - Nisa Ayat 54",
+                    "An - Nisa Ayat 55",
+                    "An - Nisa Ayat 56",
+                    "An - Nisa Ayat 57",
+                    "An - Nisa Ayat 58",
+                    "An - Nisa Ayat 59",},
+            {"An - Nisa Ayat 60",
+                    "An - Nisa Ayat 61",
+                    "An - Nisa Ayat 62",
+                    "An - Nisa Ayat 63",
+                    "An - Nisa Ayat 64",
+                    "An - Nisa Ayat 65",},
+            {"An - Nisa Ayat 66",
+                    "An - Nisa Ayat 67",
+                    "An - Nisa Ayat 68",
+                    "An - Nisa Ayat 69",
+                    "An - Nisa Ayat 70",
+                    "An - Nisa Ayat 71",
+                    "An - Nisa Ayat 72",
+                    "An - Nisa Ayat 73",
+                    "An - Nisa Ayat 74",},
+            {"An - Nisa Ayat 75",
+                    "An - Nisa Ayat 76",
+                    "An - Nisa Ayat 77",
+                    "An - Nisa Ayat 78",
+                    "An - Nisa Ayat 79",},
+            {"An - Nisa Ayat 80",
+                    "An - Nisa Ayat 81",
+                    "An - Nisa Ayat 82",
+                    "An - Nisa Ayat 83",
+                    "An - Nisa Ayat 84",
+                    "An - Nisa Ayat 85",
+                    "An - Nisa Ayat 86",},
+            {"An - Nisa Ayat 87",
+                    "An - Nisa Ayat 88",
+                    "An - Nisa Ayat 89",
+                    "An - Nisa Ayat 90",
+                    "An - Nisa Ayat 91",},
+            {"An - Nisa Ayat 92",
+                    "An - Nisa Ayat 93",
+                    "An - Nisa Ayat 94",},
+            {"An - Nisa Ayat 95",
+                    "An - Nisa Ayat 96",
+                    "An - Nisa Ayat 97",
+                    "An - Nisa Ayat 98",
+                    "An - Nisa Ayat 99",
+                    "An - Nisa Ayat 100",
+                    "An - Nisa Ayat 101",},
+            {"An - Nisa Ayat 102",
+                    "An - Nisa Ayat 103",
+                    "An - Nisa Ayat 104",
+                    "An - Nisa Ayat 105",},
+            {"An - Nisa Ayat 106",
+                    "An - Nisa Ayat 107",
+                    "An - Nisa Ayat 108",
+                    "An - Nisa Ayat 109",
+                    "An - Nisa Ayat 110",
+                    "An - Nisa Ayat 111",
+                    "An - Nisa Ayat 112",
+                    "An - Nisa Ayat 113",},
+            {"An - Nisa Ayat 114",
+                    "An - Nisa Ayat 115",
+                    "An - Nisa Ayat 116",
+                    "An - Nisa Ayat 117",
+                    "An - Nisa Ayat 118",
+                    "An - Nisa Ayat 119",
+                    "An - Nisa Ayat 120",
+                    "An - Nisa Ayat 121",},
+            {"An - Nisa Ayat 122",
+                    "An - Nisa Ayat 123",
+                    "An - Nisa Ayat 124",
+                    "An - Nisa Ayat 125",
+                    "An - Nisa Ayat 126",
+                    "An - Nisa Ayat 127",},
+            {"An - Nisa Ayat 128",
+                    "An - Nisa Ayat 129",
+                    "An - Nisa Ayat 130",
+                    "An - Nisa Ayat 131",
+                    "An - Nisa Ayat 132",
+                    "An - Nisa Ayat 133",
+                    "An - Nisa Ayat 134",},
+            {"An - Nisa Ayat 135",
+                    "An - Nisa Ayat 136",
+                    "An - Nisa Ayat 137",
+                    "An - Nisa Ayat 138",
+                    "An - Nisa Ayat 139",
+                    "An - Nisa Ayat 140",},
+            {"An - Nisa Ayat 141",
+                    "An - Nisa Ayat 142",
+                    "An - Nisa Ayat 143",
+                    "An - Nisa Ayat 144",
+                    "An - Nisa Ayat 145",
+                    "An - Nisa Ayat 146",
+                    "An - Nisa Ayat 147",},
+    };
+
     int ayat = 0;
 
     @Override
@@ -259,7 +386,7 @@ public class Juz5Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                ayattxt.setText("An Nisa Ayat " + (ayat+1));
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -283,7 +410,7 @@ public class Juz5Fragment extends Fragment {
                 ayat=0;
                 sl.setVisibility(View.GONE);
                 sr.setVisibility(View.VISIBLE);
-                ayattxt.setText("An Nisa Ayat " + (ayat+1));
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -304,7 +431,7 @@ public class Juz5Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                ayattxt.setText("An Nisa Ayat " + (ayat+1));
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
 
@@ -323,7 +450,7 @@ public class Juz5Fragment extends Fragment {
                 }else{
                     sr.setVisibility(View.VISIBLE);
                 }
-                ayattxt.setText("An Nisa Ayat " + (ayat+1));
+                ayattxt.setText(judulayat[halaman][ayat]);
             }
         });
         play.setOnClickListener(new View.OnClickListener() {
