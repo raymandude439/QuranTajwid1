@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -393,6 +394,7 @@ public class Juz1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_juz1, container, false);
+        View view1=inflater.inflate(R.layout.fragment_tajwid, container, false);
 
         MainActivity ma = (MainActivity)getActivity();
         ImageButton prev = (ImageButton)view.findViewById(R.id.prev);
@@ -405,6 +407,90 @@ public class Juz1Fragment extends Fragment {
         ImageButton stop = (ImageButton)view.findViewById(R.id.stop);
         ImageButton sr = (ImageButton)view.findViewById(R.id.seekright);
         ImageButton sl = (ImageButton)view.findViewById(R.id.seekleft);
+
+        Button idzhar = (Button) view.findViewById(R.id.idzhar);
+        Button idgam = (Button) view.findViewById(R.id.idgam);
+        Button ikhfa = (Button) view.findViewById(R.id.ikhfa);
+        Button iqlab = (Button) view.findViewById(R.id.iqlab);
+        Button qalqalah = (Button) view.findViewById(R.id.qalqalah);
+        Button gunnah = (Button) view.findViewById(R.id.gunnah);
+
+        idzhar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Idzhar");
+            }
+        });
+
+        idgam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Idgam");
+            }
+        });
+
+        ikhfa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Ikhfa'");
+            }
+        });
+
+        iqlab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Iqlab");
+            }
+        });
+        qalqalah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Qalqalah");
+            }
+        });
+
+        gunnah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, TajwidFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setHeadline("Gunnah");
+            }
+        });
 
         if(halaman == 0){
             prev.setVisibility(View.GONE);

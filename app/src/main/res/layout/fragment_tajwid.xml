@@ -12,11 +12,255 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="410dp"
+            android:layout_height="250dp"
+            android:text="Deskripsi Tajwid"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnGunnah1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Gunnah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnGunnah2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idgam Bigunnah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah1" />
+
+        <Button
+            android:id="@+id/btnGunnah3"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idgam Mimi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah2" />
+
+        <Button
+            android:id="@+id/btnGunnah4"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:text="Idgam Mutamasilain (Gunnah)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah3" />
+
+        <Button
+            android:id="@+id/btnGunnah5"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:text="Idgam Mutajanisain (Gunnah)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah4" />
+
+        <Button
+            android:id="@+id/btnGunnah6"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Madd Faiq"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah5" />
+
+        <Button
+            android:id="@+id/btnGunnah7"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:text="Madd Lazim Mukhafaf Kilmi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah6" />
+
+        <Button
+            android:id="@+id/btnGunnah8"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:text="Madd Lazim Musaqal Kilmi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah7" />
+
+        <Button
+            android:id="@+id/btnGunnah9"
+            android:layout_width="226dp"
+            android:layout_height="60dp"
+            android:text="Madd Lazim Harfi Musyabba"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnGunnah8" />
+
+        <Button
+            android:id="@+id/btnQalqalah1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Qalqalah Sughra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnQalqalah2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Qalqalah Kubra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQalqalah1" />
+
+        <Button
+            android:id="@+id/btnIqlab1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Madd Wajib Muttasil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnIqlab2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Iqlab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIqlab1" />
+
+        <Button
+            android:id="@+id/btnIkhfa1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Madd Jaiz Munfasil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnIkhfa2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Madd Silah Tawilah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIkhfa1" />
+
+        <Button
+            android:id="@+id/btnIkhfa3"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:text="Ikhfa'"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIkhfa2" />
+
+        <Button
+            android:id="@+id/btnIkhfa4"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:text="Ikhfa Syafawi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIkhfa3" />
+
+        <Button
+            android:id="@+id/btnIdgam1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idgam Bilagunnah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnIdgam2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idgam Mutaqaribain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIdgam1" />
+
+        <Button
+            android:id="@+id/btnIdgam3"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:text="Idgam Mutajanisain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIdgam2" />
+
+        <Button
+            android:id="@+id/btnIdgam4"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:text="Idgam Mutamasilain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIdgam3" />
+
+        <Button
+            android:id="@+id/btnIdzhar1"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idzhar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnIdzhar2"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idzhar Syafawi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIdzhar1" />
+
         <Button
             android:id="@+id/btnTajwid1"
             android:layout_width="226dp"
             android:layout_height="45dp"
-            android:text="Tajwid 1"
+            android:text="Idgam"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +270,7 @@
             android:id="@+id/btnTajwid2"
             android:layout_width="226dp"
             android:layout_height="45dp"
-            android:text="Tajwid 2"
+            android:text="Ikhfa'"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +281,7 @@
             android:layout_width="226dp"
             android:layout_height="45dp"
             android:layout_marginTop="4dp"
-            android:text="Tajwid 3"
+            android:text="Iqlab"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +292,7 @@
             android:layout_width="226dp"
             android:layout_height="45dp"
             android:layout_marginTop="2dp"
-            android:text="Tajwid 4"
+            android:text="Qalqalah"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -58,21 +302,21 @@
             android:id="@+id/btnTajwid5"
             android:layout_width="226dp"
             android:layout_height="45dp"
-            android:layout_marginTop="4dp"
-            android:text="Tajwid 5"
+            android:text="Gunnah"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnTajwid4" />
 
-        <ImageView
-            android:id="@+id/imageViewTajwid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/albaqarah1"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <Button
+            android:id="@+id/btnTajwid6"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:text="Idzhar"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid5" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
