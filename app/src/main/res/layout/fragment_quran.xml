@@ -17,91 +17,106 @@
             android:id="@+id/btnJuz21"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
+            android:layout_marginStart="12dp"
             android:text="Juz 21"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz11"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnJuz22"
-            android:layout_width="100dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="308dp"
-            android:text="Juz 22"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnJuz21" />
 
         <Button
             android:id="@+id/btnJuz23"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
             android:text="Juz 23"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz13"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz22" />
 
         <Button
             android:id="@+id/btnJuz24"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
+            android:layout_marginStart="15dp"
             android:text="Juz 24"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz14"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz23" />
 
         <Button
             android:id="@+id/btnJuz25"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
             android:text="Juz 25"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz15"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz24" />
 
         <Button
             android:id="@+id/btnJuz26"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
             android:text="Juz 26"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz16"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz25" />
 
         <Button
             android:id="@+id/btnJuz27"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
             android:text="Juz 27"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz17"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz26" />
 
         <Button
             android:id="@+id/btnJuz28"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
+            android:layout_marginStart="15dp"
             android:text="Juz 28"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz18"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz27" />
 
         <Button
             android:id="@+id/btnJuz29"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
+            android:layout_marginStart="15dp"
             android:text="Juz 29"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz19"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz28" />
 
         <Button
             android:id="@+id/btnJuz30"
             android:layout_width="100dp"
             android:layout_height="45dp"
-            android:layout_marginStart="308dp"
             android:text="Juz 30"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz20"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz29" />
+
+        <Button
+            android:id="@+id/btnJuz22"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:text="Juz 22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnJuz12"
+            app:layout_constraintTop_toBottomOf="@+id/btnJuz21" />
 
         <Button
             android:id="@+id/btnJuz11"
@@ -198,7 +213,10 @@
             android:id="@+id/btnJuz1"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 1"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz11"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -206,23 +224,21 @@
             android:id="@+id/btnJuz2"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 2"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz12"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz1" />
-
-        <Button
-            android:id="@+id/btnJuz3"
-            android:layout_width="100dp"
-            android:layout_height="45dp"
-            android:text="Juz 3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnJuz2" />
 
         <Button
             android:id="@+id/btnJuz4"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 4"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz14"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz3" />
 
@@ -230,7 +246,10 @@
             android:id="@+id/btnJuz5"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 5"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz15"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz4" />
 
@@ -238,7 +257,10 @@
             android:id="@+id/btnJuz6"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 6"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz16"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz5" />
 
@@ -246,7 +268,10 @@
             android:id="@+id/btnJuz7"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
             android:text="Juz 7"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz17"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz6" />
 
@@ -254,7 +279,10 @@
             android:id="@+id/btnJuz8"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 8"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz18"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz7" />
 
@@ -262,7 +290,10 @@
             android:id="@+id/btnJuz9"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 9"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz19"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz8" />
 
@@ -270,9 +301,23 @@
             android:id="@+id/btnJuz10"
             android:layout_width="100dp"
             android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
             android:text="Juz 10"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz20"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnJuz9" />
+
+        <Button
+            android:id="@+id/btnJuz3"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="12dp"
+            android:text="Juz 3"
+            app:layout_constraintEnd_toStartOf="@+id/btnJuz13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnJuz2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
