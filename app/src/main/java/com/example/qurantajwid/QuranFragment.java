@@ -85,16 +85,44 @@ public class QuranFragment extends Fragment {
         Button btnJuz18 = (Button)view.findViewById(R.id.btnJuz18);
         Button btnJuz19 = (Button)view.findViewById(R.id.btnJuz19);
         Button btnJuz20 = (Button)view.findViewById(R.id.btnJuz20);
+        Button btnJuz21 = (Button)view.findViewById(R.id.btnJuz21);
+        Button btnJuz22 = (Button)view.findViewById(R.id.btnJuz22);
+        Button btnJuz23 = (Button)view.findViewById(R.id.btnJuz23);
+        Button btnJuz24 = (Button)view.findViewById(R.id.btnJuz24);
+        Button btnJuz25 = (Button)view.findViewById(R.id.btnJuz25);
+        Button btnJuz26 = (Button)view.findViewById(R.id.btnJuz26);
+        Button btnJuz27 = (Button)view.findViewById(R.id.btnJuz27);
+        Button btnJuz28 = (Button)view.findViewById(R.id.btnJuz28);
+        Button btnJuz29 = (Button)view.findViewById(R.id.btnJuz29);
+        Button btnJuz30 = (Button)view.findViewById(R.id.btnJuz30);
+
+        ImageButton back = (ImageButton)view.findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ma.setHeadline("Menu");
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, MenuFragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+            }
+        });
         btnJuz1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ma.setJuz(0);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 1 Halaman 1");
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
                         .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
-                ma.setHeadline("Juz 1 Halaman 1");
             }
         });
 
@@ -103,10 +131,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz2Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(1);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 2 Halaman 1");
             }
         });
@@ -116,10 +147,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz3Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(2);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 3 Halaman 1");
             }
         });
@@ -129,10 +163,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz4Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(3);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 4 Halaman 1");
             }
         });
@@ -142,10 +179,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz5Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(4);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 5 Halaman 1");
             }
         });
@@ -155,10 +195,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz6Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(5);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 6 Halaman 1");
             }
         });
@@ -168,10 +211,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz7Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(6);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 7 Halaman 1");
             }
         });
@@ -181,10 +227,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz8Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(7);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 8 Halaman 1");
             }
         });
@@ -194,10 +243,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz9Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(8);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 9 Halaman 1");
             }
         });
@@ -207,10 +259,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz10Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(9);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 10 Halaman 1");
             }
         });
@@ -220,10 +275,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz11Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(10);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 11 Halaman 1");
             }
         });
@@ -233,10 +291,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz12Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(11);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 12 Halaman 1");
             }
         });
@@ -246,10 +307,13 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz13Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(12);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 13 Halaman 1");
             }
         });
@@ -259,11 +323,270 @@ public class QuranFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getFragmentManager();
                 fm.beginTransaction()
-                        .replace(R.id.fragmentFrame, Juz14Fragment.class, null)
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
                         .setReorderingAllowed(true)
                         .addToBackStack("name")
                         .commit();
+                ma.setJuz(13);
+                ma.setAyat(0);
+                ma.setHalaman(0);
                 ma.setHeadline("Juz 14 Halaman 1");
+            }
+        });
+
+        btnJuz15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(14);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 15 Halaman 1");
+            }
+        });
+
+        btnJuz16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(15);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 16 Halaman 1");
+            }
+        });
+
+        btnJuz17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(16);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 17 Halaman 1");
+            }
+        });
+
+        btnJuz18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(17);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 18 Halaman 1");
+            }
+        });
+
+        btnJuz19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(18);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 19 Halaman 1");
+            }
+        });
+
+        btnJuz20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(19);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 20 Halaman 1");
+            }
+        });
+
+        btnJuz21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(20);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 21 Halaman 1");
+            }
+        });
+
+        btnJuz22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(21);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 22 Halaman 1");
+            }
+        });
+
+        btnJuz23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(22);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 23 Halaman 1");
+            }
+        });
+
+        btnJuz24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(23);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 24 Halaman 1");
+            }
+        });
+
+        btnJuz25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(24);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 25 Halaman 1");
+            }
+        });
+
+        btnJuz26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(25);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 26 Halaman 1");
+            }
+        });
+
+        btnJuz27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(26);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 27 Halaman 1");
+            }
+        });
+
+        btnJuz28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(27);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 28 Halaman 1");
+            }
+        });
+
+        btnJuz29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(28);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 29 Halaman 1");
+            }
+        });
+
+        btnJuz30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                fm.beginTransaction()
+                        .replace(R.id.fragmentFrame, Juz1Fragment.class, null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack("name")
+                        .commit();
+                ma.setJuz(29);
+                ma.setAyat(0);
+                ma.setHalaman(0);
+                ma.setHeadline("Juz 30 Halaman 1");
             }
         });
 

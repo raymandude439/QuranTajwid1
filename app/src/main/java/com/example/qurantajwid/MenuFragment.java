@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -64,10 +65,6 @@ public class MenuFragment extends Fragment {
         }
     }
 
-//    public interface MenuFragmentListener {
-//        void onInputASent(CharSequence input);
-//    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -75,8 +72,8 @@ public class MenuFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_menu, container, false);
 
         ImageButton btnQuran = (ImageButton)view.findViewById(R.id.btnQuran);
-        ImageButton btnTajwid = (ImageButton) view.findViewById(R.id.btnTajwid);
-        ImageButton btnAU = (ImageButton) view.findViewById(R.id.btnAU);
+        ImageButton btnTajwid = (ImageButton)view.findViewById(R.id.btnTajwid);
+        ImageView btnAU = (ImageView)view.findViewById(R.id.btnAU);
         MainActivity ma = (MainActivity)getActivity();
         btnQuran.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,16 +114,4 @@ public class MenuFragment extends Fragment {
 
         return view;
     }
-//    public void onAttach(Context context){
-//        super.onAttach(context);
-//        if (context instanceof MenuFragmentListener){
-//            listener = (MenuFragmentListener) context;
-//        } else {
-//            throw new RuntimeException(context.toString() + " must implement MenuFragmentListener");
-//        }
-//    }
-//    public void onDetach() {
-//        super.onDetach();
-//        listener = null;
-//    }
 }

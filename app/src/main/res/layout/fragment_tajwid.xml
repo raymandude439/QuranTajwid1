@@ -13,9 +13,59 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Az - Zumar Ayat 32"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tajwidImage" />
+
+        <ImageButton
+            android:id="@+id/seekright"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_next_page_30"
+            app:layout_constraintStart_toEndOf="@+id/pause"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_pause_button_30"
+            app:layout_constraintStart_toEndOf="@+id/play"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_play_button_circled_30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_square_full_32"
+            app:layout_constraintEnd_toStartOf="@+id/play"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageButton
+            android:id="@+id/seekleft"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_back_to_30"
+            app:layout_constraintEnd_toStartOf="@+id/stop"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
             android:id="@+id/txtDesc"
-            android:layout_width="410dp"
-            android:layout_height="250dp"
+            android:layout_width="327dp"
+            android:layout_height="260dp"
             android:text="Deskripsi Tajwid"
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -260,6 +310,7 @@
             android:id="@+id/btnTajwid1"
             android:layout_width="226dp"
             android:layout_height="45dp"
+            android:backgroundTint="#C34A36"
             android:text="Idgam"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -270,6 +321,7 @@
             android:id="@+id/btnTajwid2"
             android:layout_width="226dp"
             android:layout_height="45dp"
+            android:backgroundTint="#50AF65"
             android:text="Ikhfa'"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -281,6 +333,7 @@
             android:layout_width="226dp"
             android:layout_height="45dp"
             android:layout_marginTop="4dp"
+            android:backgroundTint="#07BDBD"
             android:text="Iqlab"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -292,6 +345,7 @@
             android:layout_width="226dp"
             android:layout_height="45dp"
             android:layout_marginTop="2dp"
+            android:backgroundTint="#2B2F76"
             android:text="Qalqalah"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -302,6 +356,7 @@
             android:id="@+id/btnTajwid5"
             android:layout_width="226dp"
             android:layout_height="45dp"
+            android:backgroundTint="#DC1564"
             android:text="Gunnah"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -312,11 +367,50 @@
             android:id="@+id/btnTajwid6"
             android:layout_width="226dp"
             android:layout_height="45dp"
+            android:backgroundTint="#8D8583"
             android:text="Idzhar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnTajwid5" />
+
+        <ImageView
+            android:id="@+id/tajwidImage"
+            android:layout_width="326dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tajwidaliimran122"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDesc" />
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_revert"
+            app:layout_constraintEnd_toStartOf="@+id/seekleft"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

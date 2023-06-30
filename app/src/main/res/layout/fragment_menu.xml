@@ -37,18 +37,15 @@
             app:layout_constraintVertical_bias="0.027"
             tools:srcCompat="@drawable/menu_tajwid__2_" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btnAU"
             android:layout_width="337dp"
             android:layout_height="169dp"
-            android:background="#3F51B5"
-            android:src="@drawable/menu_about_us__1_"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/menu_history"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnTajwid"
-            app:layout_constraintVertical_bias="0.177"
-            tools:srcCompat="@drawable/menu_about_us__1_" />
+            app:layout_constraintTop_toBottomOf="@+id/btnTajwid" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
